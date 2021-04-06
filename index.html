@@ -12,45 +12,65 @@
 
 <body>
     <header class="header">
-        <div class="header-top">
-            <nav class="nav-left">
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">shop</a></li>
-                    <li><a href="#">story</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">testimonials</a></li>
+        <div class="header__top">
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item"><a class="nav__list-link" href="#">home</a></li>
+                    <li class="nav__list-item"><a class="nav__list-link" href="#">shop</a></li>
+                    <li class="nav__list-item"><a class="nav__list-link" href="#">story</a></li>
+                    <li class="nav__list-item"><a class="nav__list-link" href="#">about</a></li>
+                    <li class="nav__list-item"><a class="nav__list-link" href="#">blog</a></li>
+                    <li class="nav__list-item"><a class="nav__list-link" href="#">testimonials</a></li>
                 </ul>
             </nav>
-            <img src="./assets/images/Logo.png" alt="logo">
-            <ul>
-                <li>
-                    <a href=""><img src="./assets/images/Search-icon.png" alt="search"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./assets/images/User-icon.png" alt="profile"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./assets/images/Holder.png" alt="shop"></a>
-                    <span>1</span>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href=""><img src="./assets/images/Facebook-icon.png" alt="facebook"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./assets/images/Pinterest-icon.png" alt="pinterest"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./assets/images/Instagram-icon.png" alt="instagram"></a>
-                </li>
-            </ul>
+            <div class="header__logo logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="#" alt="#">
+                </a>
+            </div>
+            <div class="header__personal personal">
+                <ul class="personal__list">
+                    <li class="personal__list-item">
+                        <a class="personal__list-link" href="#">
+                            <img class="personal__img-search" src="#" alt="#">
+                        </a>
+                    </li>
+                    <li class="personal__list-item">
+                        <a class="personal__list-link" href="#">
+                            <img class="personal__img-user" src="#" alt="#">
+                        </a>
+                    </li>
+                    <li class="personal__list-item">
+                        <a class="personal__list-link" href="#">
+                            <img class="personal__img-basket" src="#" alt="#">
+                            <span class="personal__count">1</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__social social">
+                <ul class="social__list">
+                    <li class="social__list-item">
+                        <a class="social__list-link" href="#">
+                            <img class="social__img" src="#" alt="#">
+                        </a>
+                    </li>
+                    <li class="social__list-item">
+                        <a class="social__list-link" href="#">
+                            <img class="social__img" src="#" alt="#">
+                        </a>
+                    </li>
+                    <li class="social__list-item">
+                        <a class="social__list-link" href="#">
+                            <img class="social__img" src="#" alt="#">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="header-content">
-            <h1>Smoothies</h1>
-            <button>Shop Now</button>
+        <div class="header__content">
+            <h1 class="header__title">Smoothies</h1>
+            <button class="header__btn btn">Shop Now</button>
         </div>
     </header>
     <section class="smoothies">
@@ -225,14 +245,11 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <span>© 2020. All Rights Reserved.</span>
+            <adress>© 2020. All Rights Reserved.</adress>
             <a>Go top</a>
         </div>
     </footer>
 </body>
-
-
-
 
 </html>
 
