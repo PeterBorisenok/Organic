@@ -114,7 +114,7 @@
     <section class="about">
         <img class="about__img" src="#" alt="welcome summer">
         <div class="about__advantages">
-            <h2 class="about__title">What makes Smoothie an <span class="about__underline">awesome drink?</span></h2>
+            <h2 class="about__title">What makes Smoothie an <span class="about__highlite">awesome drink?</span></h2>
             <ul class="about__list">
                 <li class="about__list-item">Crunchy Puffs Texture</li>
                 <li class="about__list-item">100 Calories per drink</li>
@@ -155,98 +155,124 @@
         </div>
     </section>
     <section class="story">
-        <div class="story-description">
-            <h2>Our story</h2>
-            <p>As products typically using raw fruits or vegetables, smoothies include dietary fiber (e.g. pulp, skin, and seeds) and so are thicker than fruit juice, often with a consistency similar to a milkshake. </p>
-            <button>Who we are</button>
+        <div class="story__description">
+            <h2 class="story__title">Our story</h2>
+            <p class="story__text">As products typically using raw fruits or vegetables, smoothies include dietary fiber (e.g. pulp, skin, and seeds) and so are thicker than fruit juice, often with a consistency similar to a milkshake. </p>
+            <button class="story__btn btn btn--green">Who we are</button>
         </div>
-        <!-- тут div т.к. будет псевдоэлемент к картинке -->
-        <div>
-            <img src="#" alt="smoothies"> 
+        <div class="story__img-wrap">
+            <img class="story__img" src="#" alt="smoothies"> 
         </div>
     </section>
     <section class="testimonials">
-        <h2>Why clients <span>love</span> us?</h2>
-        <div class="testimonial">
-            <div class="testimonial-text">
-                <q>Smoothie is great. I don't know what else to say. I will let my mum know about this, she could really make use of Smoothie! Smoothie saved my business.
+        <h2 class="testimonials__title">Why clients <span class="testimonials__highlite">love</span> us?</h2>
+        <div class="testimonials__wrap">
+            <div class="testimonials__text">
+                <q class="testimonials__quote">Smoothie is great. I don't know what else to say. I will let my mum know about this, she could really make use of Smoothie! Smoothie saved my business.
                 </q>
-                <cite>- from Santa Monica, CA</cite>
+                <cite class="testimonials__cite">- from Santa Monica, CA</cite>
             </div>
-            <img src="#" alt="photo">
+            <img class="testimonials__wrap-img" src="#" alt="photo">
         </div>
         <div>
-            <img src="#" alt="arrow">
-            <img src="#" alt="arrow">
+            <img class="testimonials__img" src="#" alt="left-arrow">
+            <img class="testimonials__img" src="#" alt="right-arrow">
         </div>
     </section>
     <section class="blog">
-        <h2>Our blog</h2>
-        <div>
-            <img src="#" alt="user image">
-            <article class="blog-text">
-                <h1>ASAFOETIDA - THE NEXT TURMERIC?</h1>
-                <time datetime="2000-06-16">Jun 16, 2020</time>
-                <p>If the fruit ingredients and the green vegetable ingredients are both juiced ahead of time, the mixed juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything... <span>Read More</span></p>
+        <h2 class="blog__title">Our blog</h2>
+        <div class="blog__inner">
+            <div class="blog__img-wrap">
+                <img class="blog__img" src="#" alt="user image">
+            </div>
+            <article class="blog__article article">
+                <h1 class="article__title">ASAFOETIDA - THE NEXT TURMERIC?</h1>
+                <time class="article__time" datetime="2000-06-16">Jun 16, 2020</time>
+                <p class="article__text">If the fruit ingredients and the green vegetable ingredients are both juiced ahead of time, the mixed juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything... <span class="article__highlite">Read More</span></p>
             </article>
         </div>
     </section>
     <section class="instagram">
-        <div class="instagram-link">
-            <a href="#">
-                <img src="#" alt="instargam logo">
-                <h3>ashasuperfoods</h3>
+        <div class="instagram__logo">
+            <a class="instagram__logo-link" href="#">
+                <img class="instagram__logo-img" src="#" alt="instargam logo">
+                <h3 class="instagram__logo-title">ashasuperfoods</h3>
             </a>
         </div>
-        <div class="instagram-fotos">
-            <img src="#" alt="#">
-            <img src="#" alt="#">
-            <img src="#" alt="#">
-            <img src="#" alt="#">
-            <img src="#" alt="#">
+        <div class="instagram__foto-wrap">
+            <div class="instagram__foto">
+                <img class="instagram__foto-img" src="#" alt="#">
+            </div>
+            <div class="instagram__foto">
+                <img class="instagram__foto-img" src="#" alt="#">
+            </div>
+            <div class="instagram__foto">
+                <img class="instagram__foto-img" src="#" alt="#">
+            </div>
+            <div class="instagram__foto">
+                <img class="instagram__foto-img" src="#" alt="#">
+            </div>
         </div>
     </section>
     <footer class="footer">
-        <div class="footer-top">
-            <a href="#"><img src="#" alt="logo"></a>
-            <div class="footer-info">
-                <h3>Information</h3>
-                <ul>
-                    <li><a href="#">Search</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+        <div class="footer__top">
+            <div class="footer__logo logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="#" alt="#">
+                </a>
+            </div>
+            <div class="footer__info">
+                <h3 class="footer__title">Information</h3>
+                <ul class="footer__info-list">
+                    <li class="footer__info-list-item"><a class="footer__info-list-link" href="#">Search</a></li>
+                    <li class="footer__info-list-item"><a class="footer__info-list-link" href="#">Contact us</a></li>
+                    <li class="footer__info-list-item"><a class="footer__info-list-link" href="#">Terms & Conditions</a></li>
+                    <li class="footer__info-list-item"><a class="footer__info-list-link" href="#">Privacy Policy</a></li>
                 </ul>
             </div>
-            <div class="footer-payment">
-                <h3>Payment</h3>
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
+            <div class="footer__payment">
+                <h3 class="footer__title">Payment</h3>
+                <img class="footer__payment-img" src="#" alt="#">
+                <img class="footer__payment-img" src="#" alt="#">
+                <img class="footer__payment-img" src="#" alt="#">
+                <img class="footer__payment-img" src="#" alt="#">
+                <img class="footer__payment-img" src="#" alt="#">
+                <img class="footer__payment-img" src="#" alt="#">
+                <img class="footer__payment-img" src="#" alt="#">
+                <img class="footer__payment-img" src="#" alt="#">
+                <img class="footer__payment-img" src="#" alt="#">
+                <img class="footer__payment-img" src="#" alt="#">
             </div>
-            <div class="footer-contacts">
-                <h3>Don`t miss out!</h3>
-                <form action="#">
-                    <input type="text" placeholder="Subscribe to our newsletter">
+            <div class="footer__contacts">
+                <h3 class="footer__title">Don`t miss out!</h3>
+                <form class="footer__form" action="#">
+                    <input class="footer__input" type="text" placeholder="Subscribe to our newsletter">
                 </form>
-                <span>follow us</span>
-                <ul>
-                    <li><a href="#"><img src="#" alt="facebook"></a></li>
-                    <li><a href="#"><img src="#" alt="pinterest"></a></li>
-                    <li><a href="#"><img src="#" alt="instagram"></a></li>
-                </ul>
+                <span class="footer__highlite">follow us</span>
+                <div class="footer__social social">
+                    <ul class="social__list">
+                        <li class="social__list-item">
+                            <a class="social__list-link" href="#">
+                                <img class="social__img" src="#" alt="#">
+                            </a>
+                        </li>
+                        <li class="social__list-item">
+                            <a class="social__list-link" href="#">
+                                <img class="social__img" src="#" alt="#">
+                            </a>
+                        </li>
+                        <li class="social__list-item">
+                            <a class="social__list-link" href="#">
+                                <img class="social__img" src="#" alt="#">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <adress>© 2020. All Rights Reserved.</adress>
-            <a>Go top</a>
+        <div class="footer__bottom">
+            <adress class="footer__bottom-copy">© 2020. All Rights Reserved.</adress>
+            <a class="footer__bottom-link">Go top</a>
         </div>
     </footer>
 </body>
