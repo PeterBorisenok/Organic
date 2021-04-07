@@ -7,7 +7,7 @@
     <!-- Сюда подключаем стили -->
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./index.css">
-    <title>Document</title>
+    <title>Smoothies</title>
 </head>
 
 <body>
@@ -15,12 +15,12 @@
         <div class="header__top">
             <nav class="header__nav nav">
                 <ul class="nav__list">
-                    <li class="nav__list-item"><a class="nav__list-link" href="#">home</a></li>
-                    <li class="nav__list-item"><a class="nav__list-link" href="#">shop</a></li>
-                    <li class="nav__list-item"><a class="nav__list-link" href="#">story</a></li>
-                    <li class="nav__list-item"><a class="nav__list-link" href="#">about</a></li>
-                    <li class="nav__list-item"><a class="nav__list-link" href="#">blog</a></li>
-                    <li class="nav__list-item"><a class="nav__list-link" href="#">testimonials</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">shop</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">story</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">about</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">blog</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">testimonials</a></li>
                 </ul>
             </nav>
             <div class="header__logo logo">
@@ -30,18 +30,18 @@
             </div>
             <div class="header__personal personal">
                 <ul class="personal__list">
-                    <li class="personal__list-item">
-                        <a class="personal__list-link" href="#">
+                    <li class="personal__item">
+                        <a class="personal__link" href="#">
                             <img class="personal__img-search" src="#" alt="#">
                         </a>
                     </li>
-                    <li class="personal__list-item">
-                        <a class="personal__list-link" href="#">
+                    <li class="personal__item">
+                        <a class="personal__link" href="#">
                             <img class="personal__img-user" src="#" alt="#">
                         </a>
                     </li>
-                    <li class="personal__list-item">
-                        <a class="personal__list-link" href="#">
+                    <li class="personal__item">
+                        <a class="personal__link" href="#">
                             <img class="personal__img-basket" src="#" alt="#">
                             <span class="personal__count">1</span>
                         </a>
@@ -50,18 +50,18 @@
             </div>
             <div class="header__social social">
                 <ul class="social__list">
-                    <li class="social__list-item">
-                        <a class="social__list-link" href="#">
+                    <li class="social__item">
+                        <a class="social__link" href="#">
                             <img class="social__img" src="#" alt="#">
                         </a>
                     </li>
-                    <li class="social__list-item">
-                        <a class="social__list-link" href="#">
+                    <li class="social__item">
+                        <a class="social__link" href="#">
                             <img class="social__img" src="#" alt="#">
                         </a>
                     </li>
-                    <li class="social__list-item">
-                        <a class="social__list-link" href="#">
+                    <li class="social__item">
+                        <a class="social__link" href="#">
                             <img class="social__img" src="#" alt="#">
                         </a>
                     </li>
@@ -74,8 +74,8 @@
         </div>
     </header>
     <section class="smoothies">
-        <h2 class="smoothies__title">What are these smoothies?</h2>
-        <p class="smoothies__text">A smoothie is a drink made from pureed raw fruit, vegetables, and sometimes dairy products (milk, yogurt, ice-cream or cottage cheese), typically using a blender. Smoothies may be made using other ingredients, such as water, crushed ice, fruit juice, sweeteners (e.g. honey, sugar, stevia, or syrup), whey powder, plant milk, nuts, nut butter, seeds, tea, chocolate, herbal supplements, or nutritional supplements. </p>
+        <h2 class="smoothies__title title title--yellow">What are these smoothies?</h2>
+        <p class="smoothies__text text text--black">A smoothie is a drink made from pureed raw fruit, vegetables, and sometimes dairy products (milk, yogurt, ice-cream or cottage cheese), typically using a blender. Smoothies may be made using other ingredients, such as water, crushed ice, fruit juice, sweeteners (e.g. honey, sugar, stevia, or syrup), whey powder, plant milk, nuts, nut butter, seeds, tea, chocolate, herbal supplements, or nutritional supplements. </p>
         <div class="smoothies__cards">
             <div class="smoothies__card">
                 <img class="smoothies__card-img" src="#" alt="Plant Based">
@@ -114,7 +114,7 @@
     <section class="about">
         <img class="about__img" src="#" alt="welcome summer">
         <div class="about__advantages">
-            <h2 class="about__title">What makes Smoothie an <span class="about__highlite">awesome drink?</span></h2>
+            <h2 class="about__title title title--white">What makes Smoothie an <span class="about__highlite">awesome drink?</span></h2>
             <ul class="about__list">
                 <li class="about__list-item">Crunchy Puffs Texture</li>
                 <li class="about__list-item">100 Calories per drink</li>
@@ -129,7 +129,7 @@
         </div>
     </section>
     <section class="products">
-        <div class="products__card">
+        <div class="products__card ">
             <img class="products__img" src="#" alt="Dark Chocolate Smoothie">
             <h3 class="products__title">Dark Chocolate Smoothie</h3>
             <span class="products__text">100 ml</span>
@@ -155,40 +155,44 @@
         </div>
     </section>
     <section class="story">
-        <div class="story__description">
-            <h2 class="story__title">Our story</h2>
-            <p class="story__text">As products typically using raw fruits or vegetables, smoothies include dietary fiber (e.g. pulp, skin, and seeds) and so are thicker than fruit juice, often with a consistency similar to a milkshake. </p>
-            <button class="story__btn btn btn--green">Who we are</button>
-        </div>
-        <div class="story__img-wrap">
-            <img class="story__img" src="#" alt="smoothies"> 
-        </div>
+        <div class="story__wrapper">
+            <div class="story__description">
+                <h2 class="story__title title title--yellow">Our story</h2>
+                <p class="story__text text text--black">As products typically using raw fruits or vegetables, smoothies include dietary fiber (e.g. pulp, skin, and seeds) and so are thicker than fruit juice, often with a consistency similar to a milkshake. </p>
+                <button class="story__btn btn btn--green">Who we are</button>
+            </div>
+            <div class="story__img-wrap">
+                <img class="story__img" src="#" alt="smoothies"> 
+            </div>
+      </div>
     </section>
     <section class="testimonials">
-        <h2 class="testimonials__title">Why clients <span class="testimonials__highlite">love</span> us?</h2>
+        <h2 class="testimonials__title title title--yellow">Why clients <span class="testimonials__strong">love</span> us?</h2>
         <div class="testimonials__wrap">
-            <div class="testimonials__text">
+            <div class="testimonials__text text text--white">
                 <q class="testimonials__quote">Smoothie is great. I don't know what else to say. I will let my mum know about this, she could really make use of Smoothie! Smoothie saved my business.
                 </q>
                 <cite class="testimonials__cite">- from Santa Monica, CA</cite>
             </div>
-            <img class="testimonials__wrap-img" src="#" alt="photo">
+            <img class="testimonials__img" src="#" alt="photo">
         </div>
+        
         <div>
-            <img class="testimonials__img" src="#" alt="left-arrow">
-            <img class="testimonials__img" src="#" alt="right-arrow">
+            <button></button>
+            <button class="testimonials__arrow" src="#" alt="left-arrow">
+            <img class="testimonials__arrow" src="#" alt="right-arrow">
         </div>
     </section>
     <section class="blog">
-        <h2 class="blog__title">Our blog</h2>
+        <h2 class="blog__title title title--yellow">Our blog</h2>
         <div class="blog__inner">
             <div class="blog__img-wrap">
                 <img class="blog__img" src="#" alt="user image">
             </div>
-            <article class="blog__article article">
-                <h1 class="article__title">ASAFOETIDA - THE NEXT TURMERIC?</h1>
-                <time class="article__time" datetime="2000-06-16">Jun 16, 2020</time>
-                <p class="article__text">If the fruit ingredients and the green vegetable ingredients are both juiced ahead of time, the mixed juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything... <span class="article__highlite">Read More</span></p>
+            <article class="blog__article">
+                <h1 class="blog__article-title">ASAFOETIDA - THE NEXT TURMERIC?</h1>
+                <time class="blog__data" datetime="2000-06-16">Jun 16, 2020</time>
+                <p class="blog__text text text--black">If the fruit ingredients and the green vegetable ingredients are both juiced ahead of time, the mixed juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything... <span class="article__highlite">Read More</span></p>
             </article>
         </div>
     </section>
@@ -200,18 +204,23 @@
             </a>
         </div>
         <div class="instagram__foto-wrap">
+
             <div class="instagram__foto">
                 <img class="instagram__foto-img" src="#" alt="#">
             </div>
+
             <div class="instagram__foto">
                 <img class="instagram__foto-img" src="#" alt="#">
             </div>
+
             <div class="instagram__foto">
                 <img class="instagram__foto-img" src="#" alt="#">
             </div>
+
             <div class="instagram__foto">
                 <img class="instagram__foto-img" src="#" alt="#">
             </div>
+
         </div>
     </section>
     <footer class="footer">
@@ -251,21 +260,25 @@
                 <span class="footer__highlite">follow us</span>
                 <div class="footer__social social">
                     <ul class="social__list">
+
                         <li class="social__list-item">
                             <a class="social__list-link" href="#">
                                 <img class="social__img" src="#" alt="#">
                             </a>
                         </li>
+
                         <li class="social__list-item">
                             <a class="social__list-link" href="#">
                                 <img class="social__img" src="#" alt="#">
                             </a>
                         </li>
+
                         <li class="social__list-item">
                             <a class="social__list-link" href="#">
                                 <img class="social__img" src="#" alt="#">
                             </a>
                         </li>
+
                     </ul>
                 </div>
             </div>
